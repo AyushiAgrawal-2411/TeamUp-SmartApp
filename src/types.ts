@@ -1,8 +1,8 @@
 export type Skill = {
   name: string;
   level: 'Beginner' | 'Intermediate' | 'Advanced' | 'Expert';
+  verified?: boolean;
 };
-
 export type ProjectRole = 'Frontend' | 'Backend' | 'UI/UX' | 'Data Science' | 'ML' | 'Research' | 'DevOps' | 'Mobile';
 
 export type ProjectStatus = 'Recruiting' | 'In Progress' | 'Completed';

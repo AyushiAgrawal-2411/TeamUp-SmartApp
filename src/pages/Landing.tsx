@@ -166,6 +166,41 @@ export function Landing({ onEnter }: { onEnter: () => void }) {
           </div>
         </div>
       </section>
+      <section id="trust" className="mx-auto max-w-7xl px-6 py-16">
+  <div className="card p-6">
+    <h2 className="font-display text-2xl font-bold text-ink-900">
+      Trust & Safety
+    </h2>
+
+    <p className="mt-3 text-sm leading-relaxed text-ink-600">
+      TeamUp Smart helps students find compatible teammates while promoting
+      safe and trustworthy collaboration.
+    </p>
+
+    <div className="mt-5 grid gap-4 sm:grid-cols-3">
+      <div>
+        <h3 className="font-semibold text-ink-900">Verified Identity</h3>
+        <p className="mt-1 text-sm text-ink-600">
+          College email verification helps confirm student identity.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-ink-900">Skill Verification</h3>
+        <p className="mt-1 text-sm text-ink-600">
+          Students can complete skill assessments and earn verified badges.
+        </p>
+      </div>
+
+      <div>
+        <h3 className="font-semibold text-ink-900">Report & Block</h3>
+        <p className="mt-1 text-sm text-ink-600">
+          Users can report or block inappropriate accounts and interactions.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Features */}
       <section id="features" className="mx-auto max-w-7xl px-6 py-20">
@@ -286,10 +321,10 @@ function Header({ onLogin }: { onLogin: () => void }) {
           <span className="font-display text-lg font-bold tracking-tight text-ink-900">TeamUp Smart</span>
         </div>
         <nav className="hidden items-center gap-8 text-sm font-medium text-ink-600 md:flex">
-          <a href="#features" className="hover:text-ink-900">Features</a>
-          <a href="#how" className="hover:text-ink-900">How it works</a>
-          <a href="#trust" className="hover:text-ink-900">Trust & Safety</a>
-        </nav>
+  <a href="#features" className="hover:text-ink-900">Features</a>
+  <a href="#how" className="hover:text-ink-900">How it works</a>
+  <a href="#trust" className="hover:text-ink-900">Trust & Safety</a>
+</nav>
         <button onClick={onLogin} className="btn-primary">
           Sign in
         </button>
