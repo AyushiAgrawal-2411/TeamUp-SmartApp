@@ -168,7 +168,7 @@ export function Landing({ onEnter }: { onEnter: () => void }) {
       </section>
 
       {/* Features */}
-      <section className="mx-auto max-w-7xl px-6 py-20">
+      <section id="features" className="mx-auto max-w-7xl px-6 py-20">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-display text-3xl font-bold text-ink-900 sm:text-4xl">
             Everything you need to form the right team
@@ -191,7 +191,7 @@ export function Landing({ onEnter }: { onEnter: () => void }) {
       </section>
 
       {/* How the AI matches you */}
-      <section className="bg-white py-20">
+      <section id="how" className="bg-white py-20">
         <div className="mx-auto max-w-5xl px-6">
           <div className="text-center">
             <div className="inline-flex items-center gap-2 rounded-full bg-brand-50 px-3 py-1 text-xs font-semibold text-brand-700 ring-1 ring-brand-200">
@@ -234,7 +234,7 @@ export function Landing({ onEnter }: { onEnter: () => void }) {
       </section>
 
       {/* How it works */}
-      <section className="bg-ink-50 py-20">
+      <section id="how-it-works" className="bg-ink-50 py-20">
         <div className="mx-auto max-w-5xl px-6">
           <div className="text-center">
             <h2 className="font-display text-3xl font-bold text-ink-900 sm:text-4xl">How it works</h2>
